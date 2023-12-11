@@ -19,6 +19,20 @@ html{
 header{
     width: 100%;
     padding: 60px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: .5s ease-in-out;
+    
+}
+header.roll{
+    background-color: #fff;
+    padding: 20px 4%;
+
+    
+}
+header.roll a, header.roll i{
+    color: #ffc9ce;
 }
 header i{
     font-size: 30px;
@@ -36,11 +50,19 @@ header ul li a{
     color: #fff;
     text-decoration: none;
 }
-
+button{
+    width: 120px;
+    height: 40px;
+    border: 0;
+    background-color: #ffc9ce;
+    color: #fff;
+    cursor: pointer;
+    transition: .2s;
+}
 
 .banner{
     height: 100vh;
-    background-image: url(/img/9437165-realista-sorvete-de-morango-derretido-em-cone-fundo-baunilha-creme-de-morango-esta-derrete-na-superficie-wafer-um-modelo-para-menu-doce-ou-publicidade-comercial-vetor.jpg);
+    background-image: url(../img/banner.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
